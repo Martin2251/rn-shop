@@ -6,3 +6,5 @@ const TabsLayout = () =>{
         <Tabs.Screen name="orders" options ={{}}  />
     </Tabs>
 }
+
+export default TabsLayout
