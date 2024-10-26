@@ -8,12 +8,16 @@ const CategoryLayout = () =>{
     <Stack>
         <Stack.Screen
         name="[slug]"
-        options={{headerShown:true, headerLeft:() => <TouchableOpacity>
-            <Ionicons  />
-        </TouchableOpacity>}}
+        options={() => ({
+        headerShown:true,
+         headerLeft:() => (<TouchableOpacity onPress={() => navigaton.goBack()}>
+            <Ionicons name="arrow-back" size={24} color="black" />
+        </TouchableOpacity>
+        ),
+        })}
         />
     </Stack>
-    )
+    );
 }
 
 export default CategoryLayout
