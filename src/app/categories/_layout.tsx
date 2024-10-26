@@ -5,7 +5,7 @@ const CategoryLayout = () =>{
     return (
     <Stack>
         <Stack.Screen
-        name="index"
+        name="[slug]"
         options={{headerShown:false}}
         />
     </Stack>
