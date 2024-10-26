@@ -1,7 +1,7 @@
 import { Tabs } from "expo-router"
 import { SafeAreaView } from "react-native-safe-area-context"
 
-const TabsLayout = () =>{
+const OrdersLayout = () =>{
     return (
         <SafeAreaView>
             <Tabs>
@@ -14,4 +14,4 @@ const TabsLayout = () =>{
     )
 }
 
-export default TabsLayout
+export default OrdersLayout
