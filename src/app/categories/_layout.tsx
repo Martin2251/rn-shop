@@ -8,9 +8,9 @@ const CategoryLayout = () =>{
     <Stack>
         <Stack.Screen
         name="[slug]"
-        options={() => ({
+        options={({navigation}) => ({
         headerShown:true,
-         headerLeft:() => (<TouchableOpacity onPress={() => navigaton.goBack()}>
+         headerLeft:() => (<TouchableOpacity onPress={() => navigation.goBack()}>
             <Ionicons name="arrow-back" size={24} color="black" />
         </TouchableOpacity>
         ),
